@@ -1,0 +1,356 @@
+@font-face{
+	font-family: SegoeWP;
+	src: url(fonts/SegoeWP_Regular.ttf);
+}
+@font-face{
+	font-family: SegoeWP_Light;
+	src: url(fonts/SegoeWP_Light.ttf);
+}
+
+*{
+	margin:0px;
+}
+body{
+	font-family: SegoeWP;
+}
+.wrap{
+	margin: 0px 115px;
+}
+.section1{
+	padding: 0px 115px;
+	display:flex;
+	height: 90px;
+	justify-content: space-between;
+	align-items: center;
+}
+.phone_menu{
+	display:none;
+}
+.block_logo{
+	display:flex;
+	align-items: center;
+}
+.text_logo{
+	font-family: SegoeWP_Light;
+	margin-left: 15px;
+	font-size: 43px;
+	color:#3F3F3F;
+}
+.block_menu{
+	margin-top: 20px;
+	display:flex;
+}
+.block_menu p{
+	box-sizing: border-box;
+	font-size:20px;
+	color:#818181;
+	margin-right: 37px;
+    margin-top: 20px;
+	height: 40px;
+	padding-bottom: 8px;
+}
+.block_menu p:hover{
+	border-bottom: 2px solid #5094F2;
+	transition: 0.2s;
+}
+.section2{
+	display: flex;
+	background: url(images/header_bg.png);
+	height: 480px;
+	background-size: cover;
+	padding: 0px 115px;
+}
+.iphone{
+	margin-left: 60px;
+	margin-top: 30px;
+}
+.right_block{
+	display:flex;
+	flex-direction: column;
+	padding-left: 100px;
+	padding-top: 150px;
+}
+.mainP{
+	font-family: SegoeWP_Light;
+	font-size: 35px;
+	color: #F1F2F3;
+	word-spacing: 7px;
+	letter-spacing: 3px;
+}
+.nomainP{
+	margin-top: 5px;
+	font-family: SegoeWP_Light;
+	font-size: 25px;
+	color: #F1F2F3;
+	line-height: 40px;
+}
+.button{
+	display:flex;
+	margin-top: 35px;
+	margin-left: 13px;
+	border-radius: 5px;
+	background: #5094F2;
+	border: none;
+	width: 173px;
+	height: 43px;
+	align-items: center;
+	transition: 0.5s;
+}
+.button:hover{
+	width: 180px;
+	padding-left: 10px;
+}
+.button p{
+	color: #F1F2F3;
+	font-family: SegoeWP_Light;
+	font-size: 22px;
+	margin-left: 10px;
+	margin-bottom: 4px;
+}
+.section3{
+	position:relative;
+	top: -7px;
+	background: url(images/zig_zag_bg.png);
+}
+.hr{
+	display:none;
+}
+.phoneText{
+	display:none;
+}
+.mainBlock{
+	display:flex;
+	justify-content: space-around;
+	margin: 0px 115px;
+}
+.block_element{
+	display:flex;
+	width: 200px;
+	flex-direction: column;
+	text-align: center;
+	margin-top: 60px;
+	align-items: center;
+}
+.img_element{
+	display: block;
+	height: 190px;
+	width: 190px;
+}
+.MainTextBlock{
+	margin-top: 25px;
+	font-size: 22px;
+	color: #5899F2;
+}
+.NoMainTextBlock{
+	font-size: 15px;
+	color:#B1B1B1;
+}
+.rap{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+.section4{
+	display: flex;
+	margin: 95px 115px 0px 115px;
+}
+.right_block_sect4{
+	display:flex;
+	flex-direction: column;
+	width: 450px;
+	height: 290px;
+	margin-left: 120px;
+	margin-top: 50px;
+}
+.right_block_sect4 h3{
+	color: #828486;
+	font-family: SegoeWP_Light;
+	font-size: 26px;
+	margin-bottom: 25px;
+}
+.right_block_sect4 p{
+	color: #909090;
+	font-family: SegoeWP;
+	font-size: 15px;
+	line-height: 36px;
+	word-spacing: 3px;
+	text-align: justify;
+}
+.left_block_sect4 h1{
+	color: #828486;
+	font-family: SegoeWP_Light;
+	font-size: 37px;
+	margin-bottom: 35px;
+	letter-spacing: 2px;
+}
+.left_block_sect4{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-left: 100px;
+}
+.productBy{
+	display:flex;
+	justify-content: center;
+	margin-top: 100px;
+	margin-bottom: 50px;	
+}
+.productBy p{
+	font-family: SegoeWP_Light;
+	font-size: 16px;
+	color: #909090;
+}
+/* /////////////////////////////// */
+			/*  MEDIA */
+/* ////////////////////////////// */
+@media only screen and (min-device-width : 320px) and (max-device-width : 700px) {
+	.section1{
+		width: 100%;
+		height: 90px;
+		margin:0px 35px;
+		position:relative;
+	}
+	.block_logo{
+		position: absolute;
+		left: 30px;
+	}
+	.block_menu{
+		display:none;
+	}
+	.phone_menu{
+		display:flex;
+		height: 60px;
+		margin-left: 900px;
+	}
+	.logo{
+		height: 70px;
+	}
+	.text_logo{
+	font-family: SegoeWP;
+	}
+	.section2{
+		width: 100%;
+		margin-left: 17px;
+		margin-top: 20px;
+	}
+	.right_block{
+	padding-top: 60px;
+	}
+	.nomainP{
+	font-size: 32px;
+	line-height: 50px;
+	}
+	.mainP{
+	font-family: SegoeWP_Light;
+	font-size: 42px;
+	color: #F1F2F3;
+	word-spacing: 7px;
+	letter-spacing: 3px;
+	}
+	.button{
+		width: 250px;
+		height: 60px;
+		margin-left: 0px;
+		margin-top: 80px;
+	}
+	.button p{
+	color: #F1F2F3;
+	font-family: SegoeWP_Light;
+	font-size: 31px;
+	margin-left: 10px;
+	margin-bottom: 4px;
+	}
+	.button img{
+		height: 40px;
+		margin-left:10px;
+	}
+	.section3{
+	display: block;	
+	top:0px;	
+	background: #fff;
+	width: 100%;
+	}
+	.mainBlock{
+	display:flex;
+	flex-direction: column;
+	margin: 40px 100px;
+	width: 100%;
+	}
+	.block_element{
+	display:flex;
+	width: 100%;
+	flex-direction: row;
+	justify-content: center;
+	margin-top: 60px;
+	margin-left: 150px;
+	}
+	.img_element{
+	display: flex;
+	height: 190px;
+	width: 190px;
+	align-self: auto;
+	}
+	.MainTextBlock{
+		display:none;
+	}
+	.NoMainTextBlock{
+		display:none;
+	}
+	.phoneText{
+		display: flex;
+		flex-direction: column;
+		text-align: left;
+		margin-left: 50px;
+	}
+	.phoneText p{
+		font-size: 20px;
+		color: #B0B0B0;
+	}
+	.phoneText h1{
+		color: #5A9AF3;
+		font-size: 34px;
+	}
+	.hr{
+		display:block;
+		width: 100%;
+		border-bottom: 3px solid silver;
+		margin-left: 50px;
+		margin-top: 30px;
+	}
+	.section4{
+	display: flex;
+	flex-direction: column;
+	margin: 50px 70px 0px 70px;
+	align-items: center;
+	}
+	.left_block_sect4{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-left: 300px;	
+	}
+	.left_block_sect4 h1{
+		font-size: 42px;
+	}
+	.right_block_sect4{
+		margin-left: 300px;
+		width: 100%;
+	}
+	.right_block_sect4 h3{
+		font-size: 34px;
+		text-align: center;
+		margin-bottom: 15px;
+	}
+	.right_block_sect4 p{
+		font-size: 19px;
+	}
+	.productBy{
+	display:flex;
+	justify-content: center;
+	margin-top: 0px;
+	margin-bottom: 50px;
+	margin-left: 310px;
+	}
+
+}
